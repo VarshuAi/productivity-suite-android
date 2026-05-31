@@ -1,0 +1,50 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate.json
+
+# IntelliJ Related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The Mind Plugin
+.theMind/
+
+# Visual Studio Code Related
+.vscode/
+*.code-workspace
+.history/
+
+# Flutter Related
+# Automatically added by flutter tool, do not commit.
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Android Related
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+
+# Symbol database for crash reporting
+app.*.symbols
+
+# Obfuscation map for keeping track of symbols
+app.*.map.json
+
+# Android Studio local properties
+android/local.properties
