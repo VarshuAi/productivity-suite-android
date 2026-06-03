@@ -1,17 +1,61 @@
-# 📱 Productivity Suite — Android (Flutter)
+<!-- ========================================================================= -->
+<!--                        PRODUCTIVITY-SUITE-ANDROID — README                            -->
+<!--       Cyberpunk Premium Theme  |  Animated SVGs  |  Live Badges          -->
+<!-- ========================================================================= -->
 
-> A comprehensive, premium personal productivity suite for Android.
-> Built with **Flutter + Dart** using a futuristic dark glassmorphism design language.
+<div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-VARSHAN69-purple?style=flat-flat&logo=github)](https://github.com/VARSHAN69)
-[![Platform](https://img.shields.io/badge/Platform-Android-green?style=flat-flat&logo=android)](https://flutter.dev)
-[![Framework](https://img.shields.io/badge/Framework-Flutter-blue?style=flat-flat&logo=flutter)](https://flutter.dev)
+<!-- ============================== BANNER ============================== -->
 
-This app brings all your personal dashboard, daily planning, habit tracking, focus timing, budget details, calendar events, secure credentials, clipboard history, and file organizer into one seamless, localized, secure, and gorgeous application.
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:000000,40:00331A,80:001100,100:000000&height=180&section=header&text=productivity-suite-android&fontSize=48&fontColor=00FF88&fontAlignY=38&animation=fadeIn" width="100%"/>
 
----
+<!-- ============================== TYPING SVG ============================== -->
 
-## ✨ Features & Architecture
+<br/>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Space%20Mono&weight=500&size=22&duration=3500&pause=800&color=00FF88&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=700&height=80&lines=%3E%20Welcome%20to%20productivity-suite-android%20%F0%9F%9A%80;%3E%20Built%20using%20Dart%20%7C%20Optimized%20%26%20Secure;%3E%20%3F%3F%20A%20comprehensive%20personal%20productivity...)](https://github.com/VarshuAi/productivity-suite-android)
+
+<br/>
+
+![Version](https://img.shields.io/badge/Version-1.0-00FF88?style=for-the-badge&logo=github&logoColor=black)
+![Language](https://img.shields.io/badge/Dart-Tech-00CC66?style=for-the-badge&logo=dart&logoColor=black)
+![Status](https://img.shields.io/badge/Status-Active-14354C?style=for-the-badge&logo=git&logoColor=white)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,40:00331A,80:001100,100:000000&height=60&section=header&text=&fontSize=0" width="100%"/>
+
+</div>
+
+<!-- ============================== ABOUT ============================== -->
+
+<h2>
+<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
+<samp>&nbsp;ABOUT</samp>
+</h2>
+
+```yaml
+name: productivity-suite-android
+version: 1.0
+type: Repository
+author: VarshuAi
+description: >
+  ?? A comprehensive personal productivity suite for Android - Tasks, Notes, Habits, Pomodoro, Budget, Calendar, Passwords, Clipboard & File Organizer. Built with Flutter/Dart
+primary_tech: Dart
+```
+
+<!-- ============================== CENTRAL GRAPHIC ============================== -->
+
+<div align="center">
+<br>
+[![Repo Stats](https://github-readme-stats.vercel.app/api/pin/?username=VarshuAi&repo=productivity-suite-android&theme=dark&bg_color=000000&title_color=00FF88&icon_color=00FF88&text_color=00CC66)](https://github.com/VarshuAi/productivity-suite-android)
+<br>
+</div>
+
+<!-- ============================== FEATURES ============================== -->
+
+<h2>
+<img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28">
+<samp>&nbsp;FEATURES</samp>
+</h2>
 
 This application consists of **9 powerful integrated modules**, each sporting a premium, visual-first glassmorphism look with smooth navigation:
 
@@ -54,7 +98,25 @@ This application consists of **9 powerful integrated modules**, each sporting a 
 
 ---
 
-## 🛠 Tech Stack & Configuration
+<!-- ============================== COMMANDS ============================== -->
+
+<h2>
+<img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28">
+<samp>&nbsp;COMMANDS & USAGE</samp>
+</h2>
+
+```bash
+# Clone the repository structure
+git clone https://github.com/VarshuAi/productivity-suite-android.git
+cd productivity-suite-android
+```
+
+<!-- ============================== TECH STACK ============================== -->
+
+<h2>
+<img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28">
+<samp>&nbsp;TECH STACK</samp>
+</h2>
 
 - **SDK Version:** Flutter `>=3.0.0 <4.0.0` (Dart 3.x support)
 - **State Management:** `provider` for unified app-wide state.
@@ -63,30 +125,12 @@ This application consists of **9 powerful integrated modules**, each sporting a 
 
 ---
 
-## 📂 Project Structure
+<!-- ============================== SETUP ============================== -->
 
-```
-lib/
-├── main.dart             # Main entry point, setting theme & orientation locks
-├── utils/
-│   ├── app_theme.dart    # Central styling system (Color palettes, Gradients, Shadows)
-│   └── data_store.dart   # JSON-based shared preferences store
-└── screens/
-    ├── home_screen.dart       # Bottom navigation container with smooth transitions
-    ├── dashboard_screen.dart  # Home analytics and greeting screen
-    ├── tasks_screen.dart      # Task management CRUD screen
-    ├── notes_screen.dart      # Note manager and note editor screen
-    ├── habits_screen.dart     # Habit tracker and heatmap screen
-    ├── pomodoro_screen.dart   # Pomodoro countdown and session screen
-    ├── budget_screen.dart     # Budget ledger and dynamic entry screen
-    ├── calendar_screen.dart   # Event planner and grid calendar screen
-    ├── passwords_screen.dart  # Secure password generator and vault screen
-    └── clipboard_screen.dart  # Local clipboard manager and search screen
-```
-
----
-
-## 🚀 Getting Started
+<h2>
+<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="28">
+<samp>&nbsp;SETUP</samp>
+</h2>
 
 1. **Prerequisites:**
    Install [Flutter SDK](https://docs.flutter.dev/get-started/install) on your system.
@@ -110,9 +154,50 @@ lib/
 
 ---
 
-## 🎨 Design System
+<!-- ============================== STRUCTURE ============================== -->
 
-Built on a luxurious **futuristic dark scheme**:
-- **Backgrounds:** `#0A0A0F` to `#12121A` dark mesh.
-- **Cards (Glassmorphism):** Transparent cards with frosted glass effect, border outlines, and subtle glow.
-- **Accents:** Neon magenta `#FF007F`, purple gradient `#8A2BE2`, and electric cyan `#00F5FF`.
+<h2>
+<samp>&nbsp;📁 STRUCTURE</samp>
+</h2>
+
+```
+lib/
+├── main.dart             # Main entry point, setting theme & orientation locks
+├── utils/
+│   ├── app_theme.dart    # Central styling system (Color palettes, Gradients, Shadows)
+│   └── data_store.dart   # JSON-based shared preferences store
+└── screens/
+    ├── home_screen.dart       # Bottom navigation container with smooth transitions
+    ├── dashboard_screen.dart  # Home analytics and greeting screen
+    ├── tasks_screen.dart      # Task management CRUD screen
+    ├── notes_screen.dart      # Note manager and note editor screen
+    ├── habits_screen.dart     # Habit tracker and heatmap screen
+    ├── pomodoro_screen.dart   # Pomodoro countdown and session screen
+    ├── budget_screen.dart     # Budget ledger and dynamic entry screen
+    ├── calendar_screen.dart   # Event planner and grid calendar screen
+    ├── passwords_screen.dart  # Secure password generator and vault screen
+    └── clipboard_screen.dart  # Local clipboard manager and search screen
+```
+
+---
+
+<!-- ============================== FOOTER ============================== -->
+
+<div align="center">
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:000000,40:00331A,80:001100,100:000000&height=80&section=footer&text=&fontSize=0" width="100%"/>
+
+<br/>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Space%20Mono&size=14&duration=4000&pause=1000&color=00FF88&center=true&vCenter=true&width=500&lines=Made+with+%E2%9D%A4%EF%B8%8F+by+VarshuAi;Build+Fast.+Ship+Secure.+Scale+Infinite.)](https://github.com/VarshuAi)
+
+<br/>
+
+[![GitHub](https://img.shields.io/badge/VarshuAi-Profile-00FF88?style=for-the-badge&logo=github&logoColor=black)](https://github.com/VarshuAi)
+[![Repo](https://img.shields.io/badge/productivity-suite-android-Repo-00CC66?style=for-the-badge&logo=github&logoColor=black)](https://github.com/VarshuAi/productivity-suite-android)
+
+<br/>
+
+</div>
