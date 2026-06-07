@@ -38,7 +38,7 @@ version: 1.0
 type: Repository
 author: VarshuAi
 description: >
-  ?? A comprehensive personal productivity suite for Android - Tasks, Notes, Habits, Pomodoro, Budget, Calendar, Passwords, Clipboard & File Organizer. Built with Flutter/Dart
+  name: productivity-suite-android version: 1.0 type: Repository author: VarshuAi description: >   ?? A comprehensive personal productivity suite for Android - Tasks, Notes, Habits, Pomodoro, Budget, Calendar, Passwords, Clipboard & File Organizer. Built with Flutter/Dart primary_tech: Dart
 primary_tech: Dart
 ```
 
